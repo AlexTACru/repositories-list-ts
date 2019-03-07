@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-react"
+  ],
+  "jsRules": {},
+  "rules": {
+    "object-literal-sort-keys": false,
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "quotemark": [false],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "member-access": [false],
+    "member-ordering": [false],
+    "no-console": [false],
+    "no-empty-interface": [false],
+    "jsx-no-multiline-js": [false],
+    "ordered-imports": [false],
+    "trailing-comma": false
+  },
+  "rulesDirectory": []
+}
